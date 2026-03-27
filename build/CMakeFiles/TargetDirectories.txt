@@ -1,6 +1,4 @@
 /workspaces/pico-synth/build/CMakeFiles/pico_synth.dir
-/workspaces/pico-synth/build/CMakeFiles/picotoolForceReconfigure.dir
-/workspaces/pico-synth/build/CMakeFiles/picotoolBuild.dir
 /workspaces/pico-synth/build/CMakeFiles/edit_cache.dir
 /workspaces/pico-synth/build/CMakeFiles/rebuild_cache.dir
 /workspaces/pico-synth/build/pico-sdk/CMakeFiles/edit_cache.dir
