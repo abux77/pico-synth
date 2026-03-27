@@ -1,0 +1,7 @@
+/workspaces/pico-synth/build/_deps/picotool/picotool
+/workspaces/pico-synth/build/_deps/picotool/picotoolTargets.cmake
+/workspaces/pico-synth/build/_deps/picotool/picotoolTargets-release.cmake
+/workspaces/pico-synth/build/_deps/picotool/picotoolConfig.cmake
+/workspaces/pico-synth/build/_deps/picotool/picotoolConfigVersion.cmake
+/workspaces/pico-synth/build/_deps/picotool/enc_bootloader.elf
+/workspaces/pico-synth/build/_deps/picotool/enc_bootloader_mbedtls.elf

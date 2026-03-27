@@ -1,0 +1,28 @@
+{
+  "name": "Pico Synth Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+
+  // Install the full Pico SDK toolchain on container creation
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "twxs.cmake"
+      ],
+      "settings": {
+        "cmake.configureOnOpen": false,
+        "C_Cpp.default.compilerPath": "/usr/bin/arm-none-eabi-gcc"
+      }
+    }
+  },
+
+  // Forward nothing (no ports needed for a firmware project)
+  "forwardPorts": []
+}
